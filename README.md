@@ -220,3 +220,12 @@ instalar git
     
     
     
+    
+/*=======================================
+Por ultimo para agregar al localhost/phpmyadmin
+=======================================*/  
+
+Editar el archivos
+
+
+
