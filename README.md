@@ -227,5 +227,15 @@ Por ultimo para agregar al localhost/phpmyadmin
 
 Editar el archivos
 
+    $   sudo nano /etc/apache2/apache2.conf
 
+Agregar esta linea en ese archivo y luego hacer un restart de apache.
 
+    # phpMyAdmin Configuration
+    Include /etc/phpmyadmin/apache.conf
+
+Guardar y salir y luego el restart.
+
+    $   sudo /etc/init.d/apache2 reload
+    
+    
